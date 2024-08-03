@@ -1,4 +1,5 @@
-00c169398dd18058872947de2d3d3a0e
+API Key: 00c169398dd18058872947de2d3d3a0e
+Base URL: https://api.themoviedb.org/3
 
 
 search: 'https://api.themoviedb.org/3/search/movie?api_key=00c169398dd18058872947de2d3d3a0e&query=avatar&include_adult=false&language=en-US&page=1', options'
