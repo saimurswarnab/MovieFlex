@@ -1,9 +1,22 @@
 import { Link, NavLink } from "react-router-dom"
 import Logo from "../assets/logo.png"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 export const Header = () => {
   const [hidden, setHidden] = useState(true);
-  const [darkMode,setDarkMode]=useState(true);
+  const [darkMode,setDarkMode]=useState(JSON.parse(localStorage.getItem("darkMode"))||false);
+
+  useEffect(()=>{
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+    if(darkMode){
+      document.documentElement.classList.add('dark');
+
+    }else{
+      document.documentElement.classList.remove('dark');
+    }
+    
+
+
+  },[darkMode])
 
 
   const activeClass = "text-base block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500";
