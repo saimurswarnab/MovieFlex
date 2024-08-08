@@ -14,5 +14,6 @@ export const useFetch = (apiPath) => {
     
       },[url])
   return {data}
+  
 }
 
