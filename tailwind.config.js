@@ -10,7 +10,6 @@ module.exports = {
           darkbg:"#0D1117",
         }
       },
-
     },
     plugins: [],
   }
