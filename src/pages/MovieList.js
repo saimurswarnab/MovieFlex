@@ -20,3 +20,4 @@ export const MovieList = ({apiPath}) => {
     </main>
   )
 }
+
