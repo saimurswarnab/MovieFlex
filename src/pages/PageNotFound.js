@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import PageNotFoundImage from "../assets/images/pagenotfound.png"
+import { Button } from "../components/Button"
 export const PageNotFound = () => {
   return (
     <main>
@@ -14,7 +15,7 @@ export const PageNotFound = () => {
 
         <div className="flex justify-center my-4">
           <Link to="/">
-           
+           <Button>Back to MovieFlex</Button>
           </Link>
         </div>
       </section>
