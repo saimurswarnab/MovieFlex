@@ -27,7 +27,13 @@ export const MovieDetail = () => {
         <div className="max-w-2xl text-gray-700 text-lg dark:text-white">
           <h1 className="text-4xl font-bold my-3 text-center lg:text-left">{movie.title}</h1>
           <p className="my-4">{movie.overview}</p>
-
+          {movie.genres ? (
+            <p className="my-7 flex flex-wrap gap-2">
+              {movie.genres.map((genre)=>(
+                <span className="mr-2 border border-gray-200 rounded dark:border-gray-600 p-2" key={genre.id}>{genre.name}</span>
+              ))}
+            </p>
+          ) : "" }
         </div>
       </section>
     </main>
