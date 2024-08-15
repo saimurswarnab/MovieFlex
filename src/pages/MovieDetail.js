@@ -1,5 +1,10 @@
 export const MovieDetail = () => {
   return (
-    <main>MovieDetail</main>
+    <main>
+      <section>
+        <div></div>
+        <div></div>
+      </section>
+    </main>
   )
 }
