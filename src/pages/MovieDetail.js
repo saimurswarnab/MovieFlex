@@ -46,6 +46,11 @@ export const MovieDetail = () => {
               <span className=" text-black-900  dark:text-white">{movie.vote_count}reviews</span>
           </div>
 
+          <p className="my-4">
+            <span className="mr-2 font-bold">Runtime:</span>
+            <span>{movie.runtime} min.</span>
+          </p>
+
         </div>
       </section>
     </main>
