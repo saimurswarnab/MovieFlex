@@ -51,6 +51,32 @@ export const MovieDetail = () => {
             <span>{movie.runtime} min.</span>
           </p>
 
+
+          <p className="my-4">
+            <span className="mr-2 font-bold">Release Date:</span>
+            <span>{movie.release_date}</span>
+          </p>
+
+          <p className="my-4">
+            <span className="mr-2 font-bold">Popularity:</span>
+            <span>{movie.popularity}</span>
+          </p>
+
+          <p className="my-4">
+            <span className="mr-2 font-bold">Revenue:</span>
+            <span>{movie.revenue}</span>
+          </p>
+
+          <p className="my-4">
+            <span className="mr-2 font-bold">Status:</span>
+            <span>{movie.status} </span>
+          </p>
+          <p className="my-4">
+            <span className="mr-2 font-bold">IMDB Code:</span>
+            <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer">{movie.imdb_id} </a>
+          </p>
+
+
         </div>
       </section>
     </main>
