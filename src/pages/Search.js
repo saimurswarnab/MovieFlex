@@ -20,8 +20,7 @@ export const Search = ({apiPath}) => {
           <Card key={movie.id} movie={movie}/>
 
 
-        ))}
-        
+        ))}       
       </div>
 
     </section>
