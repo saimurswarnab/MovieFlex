@@ -19,7 +19,6 @@ export const Search = ({apiPath}) => {
         {movies.map((movie)=>(
           <Card key={movie.id} movie={movie}/>
 
-
         ))}       
       </div>
 
