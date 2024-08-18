@@ -26,3 +26,4 @@ export const Search = ({apiPath}) => {
   </main>
   )
 }
+ 
