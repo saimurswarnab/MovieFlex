@@ -7,7 +7,7 @@ module.exports = {
           "other":{'min': '340px', 'max': '1200px'}
         },
         colors:{
-          darkbg:"#0D1117",
+          darkbg:"#212120",
         }
       },
     },
