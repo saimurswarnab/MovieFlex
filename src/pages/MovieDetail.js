@@ -7,6 +7,7 @@ export const MovieDetail = () => {
   const params = useParams();
   const[movie,setMovie] = useState({});
   const image = movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : Backup;
+  //eslint-disable-next-line
   const pageTitle = useTitle(movie.title);
   useEffect(()=>{
     async function fetchMovie(){
