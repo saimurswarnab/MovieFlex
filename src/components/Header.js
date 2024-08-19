@@ -36,7 +36,7 @@ export const Header = () => {
       <nav className="bg-white border-b-2 border-zinc-600 dark:bg-zinc-800 dark:border-b-1">
          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src={Logo} className="size-12 mr-2 h-6 sm:h-9" alt="MovieFlex Logo" />
+                <img src={Logo} className="size-15 mr-2 h-6 sm:h-8" alt="MovieFlex Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MovieFlex</span>
             </Link>
 
