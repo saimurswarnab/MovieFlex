@@ -5,16 +5,16 @@ export const Footer = () => {
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <Link to="/" className="hover:underline">MovieFlex</Link>. All Rights Reserved. </span>
           <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
               <li>
-                  <a href="#" target="_blank" className="hover:underline me-4 md:me-6">Instagram</a>
+                  <a href="https://www.instagram.com/saimur_rahman__/" target="_blank" rel="noreferrer" className="hover:underline me-4 md:me-6">Instagram</a>
               </li>
               <li>
-                  <a href="#" target="_blank" className="hover:underline me-4 md:me-6">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/saimurswarnab/" target="_blank" rel="noreferrer" className="hover:underline me-4 md:me-6">LinkedIn</a>
               </li>
               <li>
-                  <a href="#" target="_blank" className="hover:underline me-4 md:me-6">Youtube</a>
+                  <a href="https://www.youtube.com/@saimurswarnab3433/" target="_blank" rel="noreferrer"  className="hover:underline me-4 md:me-6">Youtube</a>
               </li>
               <li>
-                  <a href="#" target="_blank" className="hover:underline">Github</a>
+                  <a href="https://github.com/saimurswarnab" target="_blank" rel="noreferrer" className="hover:underline">Github</a>
               </li>
           </ul>
       </footer>
